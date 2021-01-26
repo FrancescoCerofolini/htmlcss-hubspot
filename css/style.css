@@ -292,10 +292,10 @@ header {
 }
 .menu_block li {
   display: block;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .column a {
-  margin: 5%;
+  margin: 2%;
   text-decoration: none;
   text-transform: capitalize;
   font-size: 0.9em;
@@ -305,13 +305,20 @@ header {
   color: white;
   }
 
-
+#table_content_main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
 
   .table_content_wrapper {
     margin: 10 auto;
     text-align: center;
-    background-color: blue;
+    background-color: darkcyan;
   }
 
   .table_content_Head h1 {
@@ -322,4 +329,110 @@ header {
 .table_content_Head h4 {
   font-size: 0.9rem;
   color: white;
+}
+
+
+.table_content_row {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+  box-sizing: content-box;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 80px 0 0;
+}
+}
+
+.table_content_text h2 {
+  margin: 0 0 5px;
+  font-size: 2.5em;
+  color: #fff;
+  display: inline-block;
+  line-height: 1em;
+  }
+.table_content_text p {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.table_content  {
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  flex: 1 1 25%;
+  max-width: 25%;
+  text-align: center;
+  padding: 30px;
+}
+.img_1 {
+  position: relative;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.table_content img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 150px;
+  max-height: 100%;
+  margin: auto;
+}
+
+
+
+
+#middle_content_container {
+  padding-top: 100px;
+}
+
+.middle_content_wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: content-box;
+}
+
+.middle_content {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.middle_content_text_wrapper {
+  width: 33%;
+  margin-right: 10%;
+}
+.middle_content_text_wrapper h2 {
+  margin: 0 0 5px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.middle_content_text_wrapper p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.middle_content_text_wrapper strong {
+  font-weight: 600;
+}
+
+.middle_content_logos {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.middle_content_logo_wrapper {
+  width: 200px;
+  flex: 1 1 25%;
+}
+.middle_content_logo_wrapper img {
+  width: 150px;
+  height: 50px;
+  margin: 5%;
 }
