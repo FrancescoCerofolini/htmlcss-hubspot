@@ -233,13 +233,93 @@ header {
 
 .horizzontal_content_text h2 {
   text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.horizzontal_content_text h2::after {
+  position: absolute;
+  bottom: 20%;
+  left: 60%;
+  content: '';
+  display: block;
+  width: 25%;
+  height: 1px;
+  background: #756b6b;
 }
 
 .fa-check-circle {
   color: #ff7a59;
 }
 
+#info {
+  margin: 0 1%;
+  padding: 40px 8%;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
 
-.col img {
+#info::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  background-color: white;
+}
+.column img {
   height: 200px;
+  margin: 5%;
+}
+.column h2 {
+  text-transform: capitalize;
+  margin: 5%;
+}
+
+.column hr {
+  width: 80%;
+  margin: 15% auto;
+}
+.column h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5%;
+}
+.menu_block {
+  list-style: none;
+  margin-bottom: 5%;
+}
+.menu_block li {
+  display: block;
+  padding: 0 20px;
+}
+.column a {
+  margin: 5%;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 0.9em;
+  font-size: 0.9em;
+  border-radius: 5px;
+  border: 1px solid #ff7a59;
+  color: white;
+  }
+
+
+
+
+  .table_content_wrapper {
+    margin: 10 auto;
+    text-align: center;
+    background-color: blue;
+  }
+
+  .table_content_Head h1 {
+    padding: 3%;
+    font-size: 2rem;
+    color: white;
+  }
+.table_content_Head h4 {
+  font-size: 0.9rem;
+  color: white;
 }
