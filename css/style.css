@@ -593,3 +593,26 @@ text-decoration: none;
 #footer_langueges hr {
   margin-top: 2%;
 }
+
+#footer_logo::after {
+  content: '';
+  display: table;
+  clear:both;
+}
+
+#footer_logo {
+  margin: 1% auto;
+  max-width: 1080px;
+  text-align: center;
+  height: 5%;
+
+}
+.footer_logo_img {
+  float: left;
+}
+.footer_logo_img p {
+  font-size: 0.9rem;
+}
+._right {
+  float: right;
+}
